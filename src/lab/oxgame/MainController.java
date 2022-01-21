@@ -59,13 +59,13 @@ public class MainController {
 	@FXML
 	private void initialize() {
 		oxGame.inicjalizuj();
-		//1. Powi¹zanie kolumn z polami klasy rozgrywka
+		//1. PowiÂ¹zanie kolumn z polami klasy rozgrywka
 		rozgrywkaIdColumn.setCellValueFactory(new PropertyValueFactory<Rozgrywka, Integer>("rozgrywkaId"));
 		graczOColumn.setCellValueFactory(new PropertyValueFactory<Rozgrywka, String>("graczO"));
 		graczXColumn.setCellValueFactory(new PropertyValueFactory<Rozgrywka, String>("graczX"));
 		zwyciezcaColumn.setCellValueFactory(new PropertyValueFactory<Rozgrywka, OXEnum>("zwyciezca"));
 		dataczasRozgrywkiColumn.setCellValueFactory(new PropertyValueFactory<Rozgrywka, LocalDateTime>("dataczasRozgrywki"));
-		//2. Utworzenie listy obserwowalnej i jej powi¹zanie tabel¹
+		//2. Utworzenie listy obserwowalnej i jej powiÂ¹zanie tabelÂ¹
 		history = FXCollections.observableArrayList();
 		rozgrywkaTable.setItems(history);
 		//3. Pobranie z bazy historii i zaladowanie wynikow gry
@@ -75,11 +75,11 @@ public class MainController {
 			try {
 				rozgrywki.addAll(rozgrywkaDAO.findAll());
 			}catch(Exception e) {
-				String errMsg = "B³¹d podczas inicjalizacji historii rozgrywek!";
+				String errMsg = "BÅ‚Ä…d podczas inicjalizacji historii rozgrywek!";
 				logger.error(errMsg, e);
 				String errDetails = e.getCause() != null ?//wbudowany if
-						e.getMessage() + "\n" + e.getCause().getMessage()//if je¿eli tak
-					:	e.getMessage();//if je¿eli nie
+						e.getMessage() + "\n" + e.getCause().getMessage()//if jeÅ¼eli tak
+					:	e.getMessage();//if jeÅ¼eli nie
 				Platform.runLater(() -> showError(errMsg, errDetails));
 			}
 			Platform.runLater(() -> history.addAll(rozgrywki));
@@ -89,7 +89,7 @@ public class MainController {
 	
 	private void showError(String header, String content) {
 		Alert alert = new Alert(AlertType.ERROR);
-		alert.setTitle("B³¹d");
+		alert.setTitle("BÅ‚Ä…d");
 		alert.setHeaderText(header);
 		alert.setContentText(content);
 		alert.showAndWait();
@@ -97,7 +97,8 @@ public class MainController {
 	
 	@FXML
 	private void onActionBtnReset(ActionEvent event) {
-		//testDb();
+	
+		
 	}
 	@FXML
 	public void onActionBtn0(ActionEvent event) {
@@ -141,8 +142,10 @@ public class MainController {
 			btn.setText(kolej.toString());
 			oxGame.setPole(indeks);
 			kolej = oxGame.getKolej();
+			System.out.println(oxGame.getZwyciezca());
+			
 			//TODO
-			//Jeœli koniec rozgrywki
+			//JeÅ›li koniec rozgrywki
 			//zapis do bazy i aktualizacja listy
 			//lub tylko aktualizacja komunikat ruch gracza x
 		}
