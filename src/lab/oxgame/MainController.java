@@ -68,7 +68,7 @@ public class MainController {
 		//2. Utworzenie listy obserwowalnej i jej powi¹zanie tabel¹
 		history = FXCollections.observableArrayList();
 		rozgrywkaTable.setItems(history);
-		//3. Pobranie z bazy historii i zaladowanie wynikow
+		//3. Pobranie z bazy historii i zaladowanie wynikow gry
 		executor = Executors.newSingleThreadExecutor();
 		executor.execute(() ->{
 			List<Rozgrywka> rozgrywki = new ArrayList<>();
