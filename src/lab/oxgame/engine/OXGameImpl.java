@@ -38,7 +38,7 @@ public class OXGameImpl implements OXGame {
 
 	@Override
 	public OXEnum getKolej() {
-		kolej = Math.random() < 0.1 ? OXEnum.X : OXEnum.O; //?OXEnum.X : OXEnum.O; wbudowany if
+		kolej = Math.random() < 0.5 ? OXEnum.X : OXEnum.O; //?OXEnum.X : OXEnum.O; wbudowany if
 		return kolej;
 	}
 
@@ -54,19 +54,37 @@ public class OXGameImpl implements OXGame {
 		
 		if(kolej.equals(plansza[0]) && kolej.equals(plansza[4]) && kolej.equals(plansza[8])) {
 			wygrana = true;
+			
 			zwyciezca = getPole(4);
+			System.out.println("w1");
 		}else if((kolej.equals(plansza[2]) && kolej.equals(plansza[4]) && kolej.equals(plansza[6]))){
 			wygrana = true;
 			zwyciezca = getPole(4);
+			System.out.println("w2");
 		}else if((kolej.equals(plansza[0]) && kolej.equals(plansza[1]) && kolej.equals(plansza[2]))) {
 			wygrana = true;
 			zwyciezca = getPole(1);
+			System.out.println("w3");
 		}else if((kolej.equals(plansza[3]) && kolej.equals(plansza[4]) && kolej.equals(plansza[5]))) {
 			wygrana = true;
 			zwyciezca = getPole(4);
+			System.out.println("w4");
 		}else if((kolej.equals(plansza[6]) && kolej.equals(plansza[7]) && kolej.equals(plansza[8]))) {
 			wygrana = true;
 			zwyciezca = getPole(7);
+			System.out.println("w5");
+		}else if((kolej.equals(plansza[0]) && kolej.equals(plansza[3]) && kolej.equals(plansza[6]))) {
+			wygrana = true;
+			zwyciezca = getPole(3);
+			System.out.println("w6");
+		}else if((kolej.equals(plansza[1]) && kolej.equals(plansza[4]) && kolej.equals(plansza[7]))) {
+			wygrana = true;
+			zwyciezca = getPole(4);
+			System.out.println("w7");
+		}else if((kolej.equals(plansza[2]) && kolej.equals(plansza[5]) && kolej.equals(plansza[8]))) {
+			wygrana = true;
+			zwyciezca = getPole(5);
+			System.out.println("w8");
 		}
 		
 		

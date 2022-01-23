@@ -94,47 +94,93 @@ public class MainController {
 		alert.setContentText(content);
 		alert.showAndWait();
 	}
-	
+	private void setupButton(Button button) {
+		button.setDisable(true);
+    }
+	@FXML
+    private Button onActionBtn0;
+	@FXML
+    private Button onActionBtnReset; 
+	@FXML
+    private Button onActionBtn1; 
+	@FXML
+    private Button onActionBtn2;
+	@FXML
+    private Button onActionBtn3;
+	@FXML
+    private Button onActionBtn4;
+	@FXML
+    private Button onActionBtn5; 
+	@FXML
+    private Button onActionBtn6;
+	@FXML
+    private Button onActionBtn7;
+	@FXML
+    private Button onActionBtn8;
+	private void btnreset(Button btn) {
+		btn.setDisable(false);
+		btn.setText("");
+	}
 	@FXML
 	private void onActionBtnReset(ActionEvent event) {
-	
+		oxGame.inicjalizuj();
+		initialize();
+		btnreset(onActionBtn0);
+		btnreset(onActionBtn1);
+		btnreset(onActionBtn2);
+		btnreset(onActionBtn3);
+		btnreset(onActionBtn4);
+		btnreset(onActionBtn5);
+		btnreset(onActionBtn6);
+		btnreset(onActionBtn7);
+		btnreset(onActionBtn8);
 		
 	}
+	
 	@FXML
 	public void onActionBtn0(ActionEvent event) {
 		ruch((Button)event.getSource(), 0);
+		setupButton(onActionBtn0);
 	}
 	@FXML
 	public void onActionBtn1(ActionEvent event) {
 		ruch((Button)event.getSource(), 1);
+		setupButton(onActionBtn1);
 	}
 	@FXML
 	public void onActionBtn2(ActionEvent event) {
 		ruch((Button)event.getSource(), 2);
+		setupButton(onActionBtn2);
 	}
 	@FXML
 	public void onActionBtn3(ActionEvent event) {
 		ruch((Button)event.getSource(), 3);
+		setupButton(onActionBtn3);
 	}
 	@FXML
 	public void onActionBtn4(ActionEvent event) {
 		ruch((Button)event.getSource(), 4);
+		setupButton(onActionBtn4);
 	}
 	@FXML
 	public void onActionBtn5(ActionEvent event) {
 		ruch((Button)event.getSource(), 5);
+		setupButton(onActionBtn5);
 	}
 	@FXML
 	public void onActionBtn6(ActionEvent event) {
 		ruch((Button)event.getSource(), 6);
+		setupButton(onActionBtn6);
 	}
 	@FXML
 	public void onActionBtn7(ActionEvent event) {
 		ruch((Button)event.getSource(), 7);
+		setupButton(onActionBtn7);
 	}
 	@FXML
 	public void onActionBtn8(ActionEvent event) {
 		ruch((Button)event.getSource(), 8);
+		setupButton(onActionBtn8);
 	}
 	private void ruch(Button btn, int indeks) {
 		OXEnum kolej = oxGame.getKolej();
@@ -142,8 +188,7 @@ public class MainController {
 			btn.setText(kolej.toString());
 			oxGame.setPole(indeks);
 			kolej = oxGame.getKolej();
-			System.out.println(oxGame.getZwyciezca());
-			
+			oxGame.getZwyciezca();
 			//TODO
 			//Jeśli koniec rozgrywki
 			//zapis do bazy i aktualizacja listy
