@@ -18,7 +18,7 @@ public enum OXEnum {
 			return BRAK;
 		}else if(O.str.equalsIgnoreCase(value)) {
 			return O;
-		}else if(O.str.equalsIgnoreCase(value)) {
+		}else if(X.str.equalsIgnoreCase(value)) {
 			return X;
 		}
 		return null;//TODO przekazanie wyj¹tku 

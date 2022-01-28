@@ -9,7 +9,7 @@ public interface OXGame {
 	
 	//Ustwaienie pola i aktualizacja stanu gry
 	//(Zmiana kolejnoœci, sprawdzanie czy jest zwyciêzca)
-	void set(int indeks);
+
 	//zamiast int indeks zrobiæ typ wyliczeniowy 
 	OXEnum getPole(int indeks);
 	OXEnum setPole(int indeks);
@@ -17,6 +17,7 @@ public interface OXGame {
 	//OXEnum.O lub OXEnum.X - wskazuje czyja kolej,
 	//po zakoñczeniu gry OXEnum.brak
 	OXEnum getKolej();
-	
+
 	OXEnum getZwyciezca();
+	int getKrok();
 }

@@ -1,1 +1,185 @@
 2022-01-20 23:29:40.385 [JavaFX Application Thread] INFO  lab.oxgame.MainController.onActionBtnReset(28) - Id utworzonej rozgrywki 1
+2022-01-27 22:40:31.433 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(222) - Id utworzonej rozgrywki 2
+2022-01-27 22:40:31.435 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 2, O: Karol, X: Maciej
+2022-01-27 22:40:31.435 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 1, O: Julia, X: Jan
+2022-01-27 22:40:31.937 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(222) - Id utworzonej rozgrywki 3
+2022-01-27 22:40:31.938 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 3, O: Karol, X: Maciej
+2022-01-27 22:40:31.939 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 2, O: Karol, X: Maciej
+2022-01-27 22:40:31.939 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 1, O: Julia, X: Jan
+2022-01-27 22:40:33.389 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(222) - Id utworzonej rozgrywki 4
+2022-01-27 22:40:33.390 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 4, O: Karol, X: Maciej
+2022-01-27 22:40:33.391 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 3, O: Karol, X: Maciej
+2022-01-27 22:40:33.391 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 2, O: Karol, X: Maciej
+2022-01-27 22:40:33.391 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 1, O: Julia, X: Jan
+2022-01-27 22:40:33.870 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(222) - Id utworzonej rozgrywki 5
+2022-01-27 22:40:33.871 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 5, O: Karol, X: Maciej
+2022-01-27 22:40:33.872 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 4, O: Karol, X: Maciej
+2022-01-27 22:40:33.872 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 3, O: Karol, X: Maciej
+2022-01-27 22:40:33.873 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 2, O: Karol, X: Maciej
+2022-01-27 22:40:33.873 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 1, O: Julia, X: Jan
+2022-01-27 22:40:34.388 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(222) - Id utworzonej rozgrywki 6
+2022-01-27 22:40:34.389 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 6, O: Karol, X: Maciej
+2022-01-27 22:40:34.389 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 5, O: Karol, X: Maciej
+2022-01-27 22:40:34.390 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 4, O: Karol, X: Maciej
+2022-01-27 22:40:34.390 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 3, O: Karol, X: Maciej
+2022-01-27 22:40:34.390 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 2, O: Karol, X: Maciej
+2022-01-27 22:40:34.391 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 1, O: Julia, X: Jan
+2022-01-27 22:40:35.005 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(222) - Id utworzonej rozgrywki 7
+2022-01-27 22:40:35.007 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 7, O: Karol, X: Maciej
+2022-01-27 22:40:35.008 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 6, O: Karol, X: Maciej
+2022-01-27 22:40:35.009 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 5, O: Karol, X: Maciej
+2022-01-27 22:40:35.009 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 4, O: Karol, X: Maciej
+2022-01-27 22:40:35.010 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 3, O: Karol, X: Maciej
+2022-01-27 22:40:35.010 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 2, O: Karol, X: Maciej
+2022-01-27 22:40:35.011 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 1, O: Julia, X: Jan
+2022-01-27 22:40:35.581 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(222) - Id utworzonej rozgrywki 8
+2022-01-27 22:40:35.583 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 8, O: Karol, X: Maciej
+2022-01-27 22:40:35.583 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 7, O: Karol, X: Maciej
+2022-01-27 22:40:35.584 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 6, O: Karol, X: Maciej
+2022-01-27 22:40:35.584 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 5, O: Karol, X: Maciej
+2022-01-27 22:40:35.585 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 4, O: Karol, X: Maciej
+2022-01-27 22:40:35.585 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 3, O: Karol, X: Maciej
+2022-01-27 22:40:35.586 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 2, O: Karol, X: Maciej
+2022-01-27 22:40:35.586 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 1, O: Julia, X: Jan
+2022-01-27 22:40:36.099 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(222) - Id utworzonej rozgrywki 9
+2022-01-27 22:40:36.100 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 9, O: Karol, X: Maciej
+2022-01-27 22:40:36.101 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 8, O: Karol, X: Maciej
+2022-01-27 22:40:36.102 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 7, O: Karol, X: Maciej
+2022-01-27 22:40:36.102 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 6, O: Karol, X: Maciej
+2022-01-27 22:40:36.103 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 5, O: Karol, X: Maciej
+2022-01-27 22:40:36.103 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 4, O: Karol, X: Maciej
+2022-01-27 22:40:36.104 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 3, O: Karol, X: Maciej
+2022-01-27 22:40:36.104 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 2, O: Karol, X: Maciej
+2022-01-27 22:40:36.104 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 1, O: Julia, X: Jan
+2022-01-27 22:40:36.706 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(222) - Id utworzonej rozgrywki 10
+2022-01-27 22:40:36.708 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 10, O: Karol, X: Maciej
+2022-01-27 22:40:36.708 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 9, O: Karol, X: Maciej
+2022-01-27 22:40:36.708 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 8, O: Karol, X: Maciej
+2022-01-27 22:40:36.709 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 7, O: Karol, X: Maciej
+2022-01-27 22:40:36.709 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 6, O: Karol, X: Maciej
+2022-01-27 22:40:36.710 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 5, O: Karol, X: Maciej
+2022-01-27 22:40:36.710 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 4, O: Karol, X: Maciej
+2022-01-27 22:40:36.710 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 3, O: Karol, X: Maciej
+2022-01-27 22:40:36.711 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 2, O: Karol, X: Maciej
+2022-01-27 22:40:36.711 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Rozgrywka - Id: 1, O: Julia, X: Jan
+2022-01-27 22:48:46.217 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Id utworzonej rozgrywki null
+2022-01-27 22:48:47.224 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 11
+2022-01-27 22:48:47.610 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 12
+2022-01-27 22:48:48.030 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 13
+2022-01-27 22:48:48.448 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 14
+2022-01-27 22:48:48.908 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 15
+2022-01-27 22:48:49.340 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 16
+2022-01-27 22:48:49.806 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 17
+2022-01-27 22:48:50.269 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 18
+2022-01-27 22:48:50.623 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 19
+2022-01-27 22:50:46.902 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Id utworzonej rozgrywki null
+2022-01-27 22:50:49.082 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 20
+2022-01-27 22:50:49.560 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 21
+2022-01-27 22:50:50.082 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 22
+2022-01-27 22:50:53.187 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 23
+2022-01-27 22:50:53.952 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 24
+2022-01-27 22:50:54.781 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 25
+2022-01-27 22:50:55.235 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 26
+2022-01-27 22:50:55.653 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 27
+2022-01-27 22:50:56.089 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 28
+2022-01-27 22:54:03.544 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(226) - Id utworzonej rozgrywki null
+2022-01-27 22:54:10.699 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(230) - Id utworzonej rozgrywki 29
+2022-01-27 22:57:25.285 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(229) - Id utworzonej rozgrywki 30
+2022-01-27 22:59:52.414 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 22:59:58.888 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 31
+2022-01-27 23:00:57.669 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 23:01:02.746 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 32
+2022-01-27 23:02:20.381 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 23:02:25.106 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 33
+2022-01-27 23:04:10.207 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 23:04:15.269 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 34
+2022-01-27 23:04:39.672 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 23:04:44.539 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 35
+2022-01-27 23:07:06.992 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(233) - Id utworzonej rozgrywki null
+2022-01-27 23:07:11.819 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(239) - Id zapisanej rozgrywki 36
+2022-01-27 23:07:26.924 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(233) - Id utworzonej rozgrywki null
+2022-01-27 23:07:32.065 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(239) - Id zapisanej rozgrywki 37
+2022-01-27 23:07:43.910 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(233) - Id utworzonej rozgrywki null
+2022-01-27 23:07:56.868 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(239) - Id zapisanej rozgrywki 38
+2022-01-27 23:09:13.332 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(234) - Id utworzonej rozgrywki null
+2022-01-27 23:10:12.373 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(234) - Id utworzonej rozgrywki null
+2022-01-27 23:13:04.868 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(234) - Id utworzonej rozgrywki null
+2022-01-27 23:14:52.126 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(234) - Id utworzonej rozgrywki null
+2022-01-27 23:16:07.120 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(234) - Id utworzonej rozgrywki null
+2022-01-27 23:16:32.571 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(234) - Id utworzonej rozgrywki null
+2022-01-27 23:16:48.182 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(234) - Id utworzonej rozgrywki null
+2022-01-27 23:17:46.387 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(234) - Id utworzonej rozgrywki null
+2022-01-27 23:20:31.288 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(234) - Id utworzonej rozgrywki null
+2022-01-27 23:22:54.247 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(233) - Id utworzonej rozgrywki null
+2022-01-27 23:24:28.683 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 23:26:20.949 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 23:26:25.389 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 39
+2022-01-27 23:27:35.716 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 23:27:40.614 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 40
+2022-01-27 23:27:49.705 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 23:27:55.785 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 41
+2022-01-27 23:28:08.189 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 23:28:12.847 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 42
+2022-01-27 23:34:45.212 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 23:34:51.408 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 43
+2022-01-27 23:35:01.010 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 44
+2022-01-27 23:35:27.209 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 45
+2022-01-27 23:35:33.729 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 46
+2022-01-27 23:35:49.899 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 23:35:55.020 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 47
+2022-01-27 23:36:00.638 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 23:36:04.476 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 48
+2022-01-27 23:37:38.294 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 23:37:47.513 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 49
+2022-01-27 23:38:40.238 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 23:38:44.846 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 50
+2022-01-27 23:39:35.388 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-27 23:39:42.600 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 51
+2022-01-27 23:56:39.105 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(245) - Id utworzonej rozgrywki null
+2022-01-28 00:04:00.492 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(231) - Id utworzonej rozgrywki null
+2022-01-28 00:04:07.269 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(237) - Id zapisanej rozgrywki 52
+2022-01-28 10:32:38.918 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(231) - Id utworzonej rozgrywki null
+2022-01-28 10:32:44.057 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(237) - Id zapisanej rozgrywki 53
+2022-01-28 10:32:53.737 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(231) - Id utworzonej rozgrywki null
+2022-01-28 10:32:58.366 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(237) - Id zapisanej rozgrywki 54
+2022-01-28 10:44:04.711 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(229) - Id utworzonej rozgrywki null
+2022-01-28 10:44:09.778 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(235) - Id zapisanej rozgrywki 55
+2022-01-28 10:45:07.808 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(229) - Id utworzonej rozgrywki null
+2022-01-28 10:45:12.681 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(235) - Id zapisanej rozgrywki 56
+2022-01-28 10:48:41.479 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(230) - Id utworzonej rozgrywki null
+2022-01-28 10:48:46.300 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(236) - Id zapisanej rozgrywki 57
+2022-01-28 10:51:29.388 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(229) - Id utworzonej rozgrywki null
+2022-01-28 10:51:34.483 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(235) - Id zapisanej rozgrywki 58
+2022-01-28 10:51:40.865 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(229) - Id utworzonej rozgrywki null
+2022-01-28 10:51:51.987 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(235) - Id zapisanej rozgrywki 59
+2022-01-28 11:04:43.687 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(232) - Id utworzonej rozgrywki null
+2022-01-28 11:04:49.121 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(238) - Id zapisanej rozgrywki 60
+2022-01-28 11:05:06.223 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(232) - Id utworzonej rozgrywki null
+2022-01-28 11:07:04.254 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(232) - Id utworzonej rozgrywki null
+2022-01-28 11:07:16.415 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(238) - Id zapisanej rozgrywki 61
+2022-01-28 11:08:24.177 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(233) - Id utworzonej rozgrywki null
+2022-01-28 11:08:31.274 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(239) - Id zapisanej rozgrywki 62
+2022-01-28 11:09:44.044 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(234) - Id utworzonej rozgrywki null
+2022-01-28 11:09:48.318 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(240) - Id zapisanej rozgrywki 63
+2022-01-28 11:10:30.429 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(243) - Id utworzonej rozgrywki null
+2022-01-28 11:10:33.956 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(249) - Id zapisanej rozgrywki 64
+2022-01-28 11:11:47.818 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(243) - Id utworzonej rozgrywki null
+2022-01-28 11:11:50.969 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(249) - Id zapisanej rozgrywki 65
+2022-01-28 11:14:27.249 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(243) - Id utworzonej rozgrywki null
+2022-01-28 11:14:31.215 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(249) - Id zapisanej rozgrywki 66
+2022-01-28 11:14:36.206 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(243) - Id utworzonej rozgrywki null
+2022-01-28 11:14:50.270 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(249) - Id zapisanej rozgrywki 67
+2022-01-28 11:14:52.722 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(243) - Id utworzonej rozgrywki null
+2022-01-28 11:14:58.905 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(249) - Id zapisanej rozgrywki 68
+2022-01-28 11:18:08.363 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(243) - Id utworzonej rozgrywki null
+2022-01-28 11:18:11.833 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(249) - Id zapisanej rozgrywki 69
+2022-01-28 11:19:32.829 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(234) - Id utworzonej rozgrywki null
+2022-01-28 11:19:35.839 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(240) - Id zapisanej rozgrywki 70
+2022-01-28 11:19:38.570 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(240) - Id zapisanej rozgrywki 71
+2022-01-28 11:19:39.280 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(240) - Id zapisanej rozgrywki 72
+2022-01-28 11:21:23.592 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(244) - Id utworzonej rozgrywki null
+2022-01-28 11:21:26.343 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(250) - Id zapisanej rozgrywki 73
+2022-01-28 11:22:42.893 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(244) - Id utworzonej rozgrywki null
+2022-01-28 11:23:26.947 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(250) - Id zapisanej rozgrywki 74
+2022-01-28 11:24:17.077 [JavaFX Application Thread] INFO  lab.oxgame.MainController.tworzenieGra(244) - Id utworzonej rozgrywki null
+2022-01-28 11:24:23.350 [JavaFX Application Thread] INFO  lab.oxgame.MainController.zapisGra(250) - Id zapisanej rozgrywki 75

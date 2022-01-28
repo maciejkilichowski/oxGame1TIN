@@ -17,19 +17,11 @@ public class OXGameImpl implements OXGame {
 	public void inicjalizuj() {
 		krok = 0;
 		zwyciezca = OXEnum.BRAK;
-		kolej = getKolej();
+		kolej = Math.random() < 0.5 ? OXEnum.X : OXEnum.O; //?OXEnum.X : OXEnum.O; wbudowany if
 		plansza = new OXEnum[] {OXEnum.BRAK, OXEnum.BRAK, OXEnum.BRAK, 
 								OXEnum.BRAK, OXEnum.BRAK, OXEnum.BRAK, 
-								OXEnum.BRAK, OXEnum.BRAK, OXEnum.BRAK, };
-		
+								OXEnum.BRAK, OXEnum.BRAK, OXEnum.BRAK, };	
 	}
-
-	@Override
-	public void set(int indeks) {
-		// TODO Auto-generated method stub
-		
-	}
-
 	@Override
 	public OXEnum getPole(int indeks) {
 		OXEnum pole = plansza[indeks];
@@ -38,55 +30,11 @@ public class OXGameImpl implements OXGame {
 
 	@Override
 	public OXEnum getKolej() {
-		kolej = Math.random() < 0.5 ? OXEnum.X : OXEnum.O; //?OXEnum.X : OXEnum.O; wbudowany if
+		
 		return kolej;
 	}
-
 	@Override
 	public OXEnum getZwyciezca() {
-		boolean wygrana;
-//		boolean wygrana = (kolej.equals(plansza[0]) && kolej.equals(plansza[4]) && kolej.equals(plansza[8]))
-//				||(kolej.equals(plansza[2]) && kolej.equals(plansza[4]) && kolej.equals(plansza[6]))
-//				
-//				||(kolej.equals(plansza[0]) && kolej.equals(plansza[1]) && kolej.equals(plansza[2]))
-//				||(kolej.equals(plansza[3]) && kolej.equals(plansza[4]) && kolej.equals(plansza[5]))
-//				||(kolej.equals(plansza[6]) && kolej.equals(plansza[7]) && kolej.equals(plansza[8]));
-		
-		if(kolej.equals(plansza[0]) && kolej.equals(plansza[4]) && kolej.equals(plansza[8])) {
-			wygrana = true;
-			
-			zwyciezca = getPole(4);
-			System.out.println("w1");
-		}else if((kolej.equals(plansza[2]) && kolej.equals(plansza[4]) && kolej.equals(plansza[6]))){
-			wygrana = true;
-			zwyciezca = getPole(4);
-			System.out.println("w2");
-		}else if((kolej.equals(plansza[0]) && kolej.equals(plansza[1]) && kolej.equals(plansza[2]))) {
-			wygrana = true;
-			zwyciezca = getPole(1);
-			System.out.println("w3");
-		}else if((kolej.equals(plansza[3]) && kolej.equals(plansza[4]) && kolej.equals(plansza[5]))) {
-			wygrana = true;
-			zwyciezca = getPole(4);
-			System.out.println("w4");
-		}else if((kolej.equals(plansza[6]) && kolej.equals(plansza[7]) && kolej.equals(plansza[8]))) {
-			wygrana = true;
-			zwyciezca = getPole(7);
-			System.out.println("w5");
-		}else if((kolej.equals(plansza[0]) && kolej.equals(plansza[3]) && kolej.equals(plansza[6]))) {
-			wygrana = true;
-			zwyciezca = getPole(3);
-			System.out.println("w6");
-		}else if((kolej.equals(plansza[1]) && kolej.equals(plansza[4]) && kolej.equals(plansza[7]))) {
-			wygrana = true;
-			zwyciezca = getPole(4);
-			System.out.println("w7");
-		}else if((kolej.equals(plansza[2]) && kolej.equals(plansza[5]) && kolej.equals(plansza[8]))) {
-			wygrana = true;
-			zwyciezca = getPole(5);
-			System.out.println("w8");
-		}
-		
 		
 		return zwyciezca;
 	}
@@ -94,11 +42,67 @@ public class OXGameImpl implements OXGame {
 	@Override
 	public OXEnum setPole(int indeks) {
 		plansza[indeks] = kolej;
-		krok +=1;
-		boolean koniec = krok > 8;
+		this.krok +=1;		
+		if(kolej.equals(plansza[0]) && kolej.equals(plansza[4]) && kolej.equals(plansza[8])) {
+			if(plansza[0].equals(plansza[4]) && plansza[8].equals(plansza[4])) {
+				zwyciezca = getPole(4);
+				System.out.println("w1");
+			}
+		}else if((kolej.equals(plansza[2]) && kolej.equals(plansza[4]) && kolej.equals(plansza[6]))){
+			if(plansza[2].equals(plansza[4]) && plansza[6].equals(plansza[4])) {
+				zwyciezca = getPole(4);
+				System.out.println("w2");
+			}
+		}else if((kolej.equals(plansza[0]) && kolej.equals(plansza[1]) && kolej.equals(plansza[2]))) {
+			if(plansza[0].equals(plansza[1]) && plansza[2].equals(plansza[1])) {
+				zwyciezca = getPole(1);
+				System.out.println("w3");
+			}
+		}else if((kolej.equals(plansza[3]) && kolej.equals(plansza[4]) && kolej.equals(plansza[5]))) {
+			if(plansza[3].equals(plansza[4]) && plansza[5].equals(plansza[4])) {
+				zwyciezca = getPole(4);
+				System.out.println("w4");
+			}
+		}else if((kolej.equals(plansza[6]) && kolej.equals(plansza[7]) && kolej.equals(plansza[8]))) {
+			if(plansza[6].equals(plansza[7]) && plansza[8].equals(plansza[7])) {
+				zwyciezca = getPole(7);
+				System.out.println("w5");
+			}
+		}else if((kolej.equals(plansza[0]) && kolej.equals(plansza[3]) && kolej.equals(plansza[6]))) {
+			if(plansza[0].equals(plansza[3]) && plansza[6].equals(plansza[3])) {
+				zwyciezca = getPole(3);
+				System.out.println("w6");
+			}
+		}else if((kolej.equals(plansza[1]) && kolej.equals(plansza[4]) && kolej.equals(plansza[7]))) {
+			if(plansza[1].equals(plansza[4]) && plansza[7].equals(plansza[4])) {
+				zwyciezca = getPole(4);
+				System.out.println("w7");
+			}
+		}else if((kolej.equals(plansza[2]) && kolej.equals(plansza[5]) && kolej.equals(plansza[8]))) {
+			if(plansza[2].equals(plansza[5]) && plansza[8].equals(plansza[5])) {
+				zwyciezca = getPole(5);
+				System.out.println("w8");
+			}
+		}else {
+			zwyciezca = OXEnum.BRAK;
+		}
 		
-		
+		if(kolej==OXEnum.O)
+		{
+			kolej=OXEnum.X;
+		}else if(kolej == OXEnum.X)
+		{
+			kolej=OXEnum.O;
+		}
 		return null;
 	}
+
+	@Override
+	public int getKrok() {
+		return this.krok;
+	}
+
+
+
 	
 }

@@ -19,6 +19,7 @@ import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import lab.oxgame.dao.RozgrywkaDAO;
 import lab.oxgame.dao.RozgrywkaDAOImpl;
@@ -35,6 +36,9 @@ public class MainController {
 	private RozgrywkaDAO rozgrywkaDAO;
 	private ExecutorService executor;
 	private OXGame oxGame;
+	private String graczxx;
+	private String graczoo;
+	private Rozgrywka rozgrywka;
 	
 	@FXML
 	private TableView<Rozgrywka> rozgrywkaTable;
@@ -98,6 +102,10 @@ public class MainController {
 		button.setDisable(true);
     }
 	@FXML
+	private TextField graczo;
+	@FXML
+	private TextField graczx;
+	@FXML
     private Button onActionBtn0;
 	@FXML
     private Button onActionBtnReset; 
@@ -117,6 +125,9 @@ public class MainController {
     private Button onActionBtn7;
 	@FXML
     private Button onActionBtn8;
+	@FXML
+	private Button onActionBtnWprowadz;
+
 	private void btnreset(Button btn) {
 		btn.setDisable(false);
 		btn.setText("");
@@ -182,22 +193,64 @@ public class MainController {
 		ruch((Button)event.getSource(), 8);
 		setupButton(onActionBtn8);
 	}
+	@FXML
+	public void onActionBtnWprowadz(ActionEvent event) {
+
+		this.graczxx=graczx.getText();
+		this.graczoo=graczo.getText();
+		System.out.println(graczxx + graczoo);
+		tworzenieGra();
+		
+	}
+	
 	private void ruch(Button btn, int indeks) {
 		OXEnum kolej = oxGame.getKolej();
 		if(!OXEnum.BRAK.equals(oxGame.getKolej())) {
-			btn.setText(kolej.toString());
-			oxGame.setPole(indeks);
-			kolej = oxGame.getKolej();
-			oxGame.getZwyciezca();
-			//TODO
-			//Jeśli koniec rozgrywki
-			//zapis do bazy i aktualizacja listy
-			//lub tylko aktualizacja komunikat ruch gracza x
+			if(OXEnum.BRAK.equals(oxGame.getPole(indeks)))
+			{
+				btn.setText(kolej.toString());
+				oxGame.setPole(indeks);
+				kolej = oxGame.getKolej();
+				OXEnum wygral=oxGame.getZwyciezca();
+				System.out.println(wygral);
+				//TODO
+				//Jeśli koniec rozgrywki
+				//zapisDB(graczx, graczo,zwyciezca,LocalDateTime.now());
+				//zapis do bazy i aktualizacja listy
+				//lub tylko aktualizacja komunikat ruch gracza x
+				if(oxGame.getKrok() == 9 || !OXEnum.BRAK.equals(wygral)) {
+					rozgrywka.setZwyciezca(wygral);
+					zapisGra();
+					rozgrywkaStop();
+					
+				}
+			}
 		}
 	}
+	private void rozgrywkaStop() {
+		setupButton(onActionBtn0);
+		setupButton(onActionBtn1);
+		setupButton(onActionBtn2);
+		setupButton(onActionBtn3);
+		setupButton(onActionBtn4);
+		setupButton(onActionBtn5);
+		setupButton(onActionBtn6);
+		setupButton(onActionBtn7);
+		setupButton(onActionBtn8);
+	}
+	private void tworzenieGra() {
+		this.rozgrywka = new Rozgrywka(graczoo,graczxx,OXEnum.BRAK,LocalDateTime.now());
+		
+		logger.info("Id utworzonej rozgrywki {}", rozgrywka.getRozgrywkaId());
+	}
 
+	private void zapisGra() {
+		
+		rozgrywkaDAO.save(rozgrywka);
+		logger.info("Id zapisanej rozgrywki {}", rozgrywka.getRozgrywkaId());
+	}
 	private void testDb() {
-		Rozgrywka rozgrywka = new Rozgrywka("Jan","Julia",OXEnum.O,LocalDateTime.now());
+		Rozgrywka rozgrywka = new Rozgrywka("Jan","Julia",OXEnum.BRAK,LocalDateTime.now());
 		rozgrywkaDAO.save(rozgrywka);
 		logger.info("Id utworzonej rozgrywki {}", rozgrywka.getRozgrywkaId());
 		
